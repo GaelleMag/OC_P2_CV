@@ -1,0 +1,28 @@
+/* fonts */
+@font-face {
+	font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+ aside {
+ 	font-family: ;
+ }
+
+body {
+	font-family: ;
+}
+aside {
+    background-color : #4DB6AC;
+}
+
+.identite {
+  border-radius: 50%;
+  width: 15%;
+}
+body
+{
+}
+
+i{
+	color : white;
+}
