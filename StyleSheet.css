@@ -4,25 +4,114 @@
     font-family: 'Roboto', sans-serif;
 }
 
- aside {
- 	font-family: ;
- }
-
-body {
-	font-family: ;
+ body {
+	font-family: 'Roboto', sans-serif
 }
+
+/* aside*/
 aside {
-    background-color : #4DB6AC;
-}
+	display:flex;
+	flex-direction: column;
+	font-family: 'Noto Sans JP', sans-serif;
+ 	background-color : #4DB6AC;
+ 	width:30%;
+ 	height: 1800px;
+ 	float:left;
 
-.identite {
-  border-radius: 50%;
-  width: 15%;
-}
-body
-{
+ 	
+ }
+aside h2{
+	background-color: #F5F5F5;
+	color:#4DB6AC;
+	text-align: center;
+	height:50px;
+
 }
 
 i{
 	color : white;
+	font-size: 2em;
+	text-align: center;
 }
+.iconeloisirs{
+	text-align: center;
+}
+
+.fas.fa-gamepad{
+	margin-left: 1em;
+    margin-right: 1em;}
+
+.divphoto{
+	text-align: center;
+    padding-top: 2em;
+}
+
+.identite {
+  border-radius: 50%;
+  width: 41%;
+  box-shadow: 1px 1px 5px #555;
+  text-align: center;	
+  }
+.contact{
+	height: 376px;
+	padding-left: 3em;
+	text-align: justify;
+}
+
+.apropos{
+height: 848px;
+padding-left: 3em;
+padding-right: 3em;
+text-align:justify;
+}
+
+.loisirs{
+height: 150px;
+}
+
+
+/*main*/
+#gaelle {
+	color:#4DB6AC;
+	font-weight: bold;}
+
+section i{
+	color: #4DB6AC;
+	float: left;
+	margin-right: 1em;
+	
+}
+
+.underline{border-bottom: 2px #4DB6AC solid;}
+
+section h1{
+
+}
+
+section h2{
+	border-bottom: 2px #4DB6AC solid;
+
+}
+
+main{
+	padding-left: 5%;
+	height: 1800px;
+}
+
+
+.conteneur {
+ 	display:flex;
+ 	flex-direction: column;
+ 	margin: auto;
+ }
+ .civilite{
+  	display:flex;
+ 	flex-direction: column;
+ 	align-items: flex-start;
+ 	width:68%;
+ }
+
+.reco{
+	display: flex;
+}
+#ace{padding-right: 10em;}
