@@ -25,12 +25,13 @@ aside h2{
 	color:#4DB6AC;
 	text-align: center;
 	height:50px;
+	font-size: 2em;
 
 }
 
-i{
+aside i{
 	color : white;
-	font-size: 2em;
+	font-size: 4em;
 	text-align: center;
 }
 .iconeloisirs{
@@ -79,19 +80,25 @@ section i{
 	color: #4DB6AC;
 	float: left;
 	margin-right: 1em;
+	vertical-align: bottom;
+	font-size: 2em;
 	
 }
 
 .underline{border-bottom: 2px #4DB6AC solid;}
 
 section h1{
-
+font-size: 7em;
+line-height: 3rem;
 }
-
+#profession{
+	font-size: 2rem;
+	}
 section h2{
 	border-bottom: 2px #4DB6AC solid;
-
+	margin-bottom: 2em;
 }
+
 
 main{
 	padding-left: 5%;
