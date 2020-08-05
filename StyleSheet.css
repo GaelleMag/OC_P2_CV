@@ -16,8 +16,10 @@ aside {
  	background-color : #4DB6AC;
  	width:27%;
  	height: 1800px;
+ 	/*height:100%;*/
+ 	/*min-height: 100vh;*/
  	float:left;
-
+ 	position: relative;
  	
  }
 aside h2{
@@ -32,6 +34,8 @@ aside i{
 	color : white;
 	font-size: 4em;
 	text-align: center;
+	border:3px #FFF solid;
+	border-radius: 50%;
 }
 .iconeloisirs{
 	text-align: center;
@@ -53,20 +57,24 @@ aside i{
   text-align: center;	
   }
 .contact{
-	height: 376px;
+	/*height: 376px;*/
 	padding-left: 3em;
 	text-align: justify;
 }
 
 .apropos{
-height: 848px;
+/*height: 820px;*/
 padding-left: 3em;
 padding-right: 3em;
 text-align:justify;
 }
 
 .loisirs{
-height: 150px;
+/*height: 150px;*/
+position: absolute;
+bottom: 1em;
+width: 100%;
+
 }
 
 
