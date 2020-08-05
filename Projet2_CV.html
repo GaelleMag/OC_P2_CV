@@ -9,10 +9,11 @@
     <title>Gaelle Magnet</title>
 </head>
 <body>
-         <aside>
+    <aside>
         <div class="divphoto"><img class="identite" src="photo3.jpg" alt="photo identité"/></div>
-        <h2>CONTACT</h2>
-            <div class="contact">
+            <div>
+                <h2>CONTACT</h2>
+                <div class="contact">
                 <p> Adresse <br/>
                     Thil, France
                 </p>
@@ -33,8 +34,11 @@
                     @moi_gaelle
                 </p>
             </div>
-        <h2> A PROPOS DE MOI</h2>
-            <p  class="apropos"> David a dit que le lorem était proscrit, aussi voici un petit paragraphe directement sorti de ma tête pour meubler un peu. Toute fraiche dans le dév' (à ne pas confondre avec Dave...), je vous présente ici mon premier travail "officiel" en HTML5 / CSS3. Le but de l'exercie, au delà du CV, était de reproduire à l'iso un modèle. Voilà qui est fait.</p>
+        </div>
+        <div>
+            <h2> A PROPOS DE MOI</h2>
+           <p class="apropos"> David a dit que le lorem était proscrit, aussi voici un petit paragraphe directement sorti de ma tête pour meubler un peu. Toute fraiche dans le dév' (à ne pas confondre avec Dave...), je vous présente ici mon premier travail "officiel" en HTML5 / CSS3. Le but de l'exercie, au delà du CV, était de reproduire à l'iso un modèle. Voilà qui est fait.</p>
+       </div> 
         
         <div class="loisirs">
             <h2> LOISIRS</h2>
@@ -50,106 +54,89 @@
             <h1> <span id="gaelle">GAELLE</span> MAGNET<br/>
             <strong><span id="profession"><span class="underline">Dével</span>oppeuse web freelance</span></strong></h1>
         </section>
-        <section class="element">
+        <section>
             <i class="fas fa-graduation-cap"></i><h2>FORMATION</h2>
-            <table>
-                <tr>
-                    <i class="far fa-dot-circle"></i>
-                    <td class="col1">2019-2020</td>
-                    <td class="titrecol">OPENCLASSROOMS</td>
-                </tr>
-               <tr>
-                   <td class="col1">Lyon</td>
-                    <td>Développeur web</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Apprentissage des langages HTML5 et CSS3, intégration, Bootstrap</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <i class="fas fa-circle"></i>
-                    <td class="col1">2009-2010</td>
-                    <td class="titrecol"> UNIVERSITE LUMIERE LYON 2</td>
-                </tr>
-               <tr>
-                   <td class="col1">Lyon</td>
-                    <td> M2 ADR</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td> Gestion de projet axé sur le développement rural et local <br/> Gestion des programmes de coopérations locaux et européens</td>
-                </tr>
-            </table>
+            <ul>
+                <li class="element1">
+                    <div class="bloc1">
+                        <p class="date"><i class="far fa-dot-circle"></i>2019-2020</p>
+                        <p class="ville">Lyon</p>
+                    </div>
+                    <div class="bloc2">
+                        <p class="etabl">OPENCLASSROOMS</p>
+                        <p class="intitule">Développeur web</p>
+                        <p class="intitule">Apprentissage des langages HTML5 et CSS3, intégration, Bootstrap</p>
+                    </div>
+                </li>
+                 <li class="element1">
+                    <div class="bloc1">
+                        
+                        <p class="date"><i class="far fa-circle"></i>2009-2010</p>
+                        <p class="ville">Lyon</p>
+                    </div>
+                    <div class="bloc2">
+                        <p class="etabl">UNIVERSITE LUMIERE LYON</p>
+                        <p class="intitule">M2 ADR</p>
+                        <p class="intitule">Gestion de projet axé sur le développement rural et local <br/> Gestion des programmes de coopérations locaux et européens</p>
+                    </div>
+                </li>
+            </ul>
         </section>
         <section class="element">
             <i class="fas fa-suitcase"></i><h2>EXPÉRIENCE PROFESSIONNELLE</h2>
-            <table>
-                <tr>
-                    <i class="far fa-dot-circle"></i>
-                    <td class="col1">2018-2020</td>
-                    <td class="titrecol">SANTE DETOX</td>
-                </tr>
-                <tr>
-                   <td class="col1">Lyon</td>
-                    <td>Administration des ventes</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Conseil Client (téléphone, mail, chat)<br/>Gestion des Stocks, commandes fournisseurs<br/>Gestion du site internet</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <i class="fas fa-circle"></i>
-                    <td class="col1">2015-2018</td>
-                    <td class="titrecol">CGI</td>
-                </tr>
-                <tr>
-                   <td class="col1">Lyon</td>
-                    <td>Dispatcheuse</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Reporting<br/>Qualité<br/>Animation réunion<br/>Gestion activité : gestions tickets entrants<br/>Gestion formation</td>
-                </tr>
-            </table>
-             <table>
-                <tr>
-                    <i class="fas fa-circle"></i>
-                    <td class="col1">2012-2015</td>
-                    <td class="titrecol">PLASTIC OMNIUM</td>
-                </tr>
-               <tr>
-                   <td class="col1">Lyon</td>
-                    <td> Chargée de clientèle</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Gestion des demandesc clients<br/>Gestion des demandes usagers<br/>Facturation<br/>Animation réunion</td>
-                </tr>
-            </table>
+            <ul>
+                <li class="element1">
+                    <div class="bloc1">
+                        <p class="date"><i class="far fa-dot-circle"></i>2018-2020</p>
+                        <p class="ville">Lyon</p>
+                    </div>
+                    <div class="bloc2">
+                        <p class="etabl">SANTE DETOX</p>
+                        <p class="intitule">Administration des ventes</p>
+                        <p class="intitule">Conseil Client (téléphone, mail, chat)<br/>Gestion des Stocks, commandes fournisseurs<br/>Gestion du site internet</p>
+                    </div>
+                </li>
+                <li class="element1">
+                    <div class="bloc1">
+                        <p class="date"><i class="far fa-dot-circle"></i>2015-2018</p>
+                        <p class="ville">Lyon</p>
+                    </div>
+                    <div class="bloc2">
+                        <p class="etabl">CGI</p>
+                        <p class="intitule">Dispatcheuse</p>
+                        <p class="intitule">Reporting<br/>Qualité<br/>Animation réunion<br/>Gestion activité : gestions tickets entrants<br/>Gestion formation</p>
+                    </div>
+                </li>
+                <li class="element1">
+                    <div class="bloc1">
+                        <p class="date"><i class="far fa-dot-circle"></i>2012-2015</p>
+                        <p class="ville">Lyon</p>
+                    </div>
+                    <div class="bloc2">
+                        <p class="etabl">PLASTIC OMNIUM</p>
+                        <p class="intitule">Chargée de clientèle</p>
+                        <p class="intitule">Gestion des demandesc clients<br/>Gestion des demandes usagers<br/>Facturation<br/>Animation réunion</p>
+                    </div>
+                </li>
+            </ul>
         </section>
         <section >
             <i class="fas fa-pencil-alt"></i><h2>RECOMMANDATIONS</h2>
             <div class="reco">
-            <p id="ace">
-                ACE VENTURA <br/>
-                Directeur, Agence<br/>
-                Téléphone : <br/>
-                Email : ace.ventura@gmail.world
-            </p>
-            <p>
-                AUSTIN POWER<br/>
-                Directeur, Agence<br/>
-                Téléphone :<br/>
-                Email : au.power@gmail.uk
-            </p>
+                <p id="ace">
+                    ACE VENTURA <br/>
+                    Directeur, Agence<br/>
+                    Téléphone : <br/>
+                    Email : ace.ventura@gmail.world
+                </p>
+                <p>
+                    AUSTIN POWER<br/>
+                    Directeur, Agence<br/>
+                    Téléphone :<br/>
+                    Email : au.power@gmail.uk
+                </p>
             </div>
         </section>
     </main>
-
-
 </body>
 </html>
