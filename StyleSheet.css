@@ -6,6 +6,8 @@
 
  body {
 	font-family: 'Roboto', sans-serif
+	width:80%;
+	margin:0 auto;
 }
 
 /* aside*/
@@ -15,137 +17,135 @@ aside {
 	font-family: 'Noto Sans JP', sans-serif;
  	background-color : #4DB6AC;
  	width:27%;
- 	height: 1800px;
- 	/*height:100%;*/
- 	/*min-height: 100vh;*/
+ 	/*height: 1800px;*/
+ 	height:100%;
+ 	min-height: 100vh;
  	float:left;
  	position: relative;
- 	
- }
-aside h2{
+  }
+div h2{
 	background-color: #F5F5F5;
 	color:#4DB6AC;
 	text-align: center;
 	height:50px;
-
 }
-
 aside i{
 	color : white;
-	font-size: 4em;
+	font-size: 3rem;
 	text-align: center;
+	padding: 1rem;
 	border:3px #FFF solid;
 	border-radius: 50%;
 }
-.iconeloisirs{
-	text-align: center;
-}
 
+.iconeloisirs{text-align: center;}
 .fas.fa-gamepad{
 	margin-left: 1em;
-    margin-right: 1em;}
-
+    margin-right: 1em;
+}
 .divphoto{
 	text-align: center;
     padding-top: 2em;
 }
-
 .identite {
   border-radius: 50%;
   width: 41%;
   box-shadow: 1px 1px 5px #555;
   text-align: center;	
-  }
+ }
 .contact{
 	/*height: 376px;*/
 	padding-left: 3em;
 	text-align: justify;
+	height: 20%;
 }
-
 .apropos{
 /*height: 820px;*/
 padding-left: 3em;
 padding-right: 3em;
 text-align:justify;
+height: 40em;
 }
-
 .loisirs{
 /*height: 150px;*/
 position: absolute;
 bottom: 1em;
 width: 100%;
-
 }
-
 
 /*main*/
 #gaelle {
 	color:#4DB6AC;
-	font-weight: bold;}
-
-section i{
+	font-weight: bold;
+}
+.fas.fa-graduation-cap,.fas.fa-suitcase, .fas.fa-pencil-alt{
 	color: #4DB6AC;
 	float: left;
 	margin-right: 1em;
 	vertical-align: bottom;
 	font-size: 2em;
-	
 }
-
 .underline{border-bottom: 2px #4DB6AC solid;}
-
 section h1{
-font-size: 5em;
+font-size: 4em;
 line-height: 3rem;
 }
 
-#profession{
-	font-size: medium;
-	}
-
+#profession{font-size: medium;}
 
 section h2{
 	border-bottom: 2px #4DB6AC solid;
 	margin-bottom: 2em;
-	}
-
-main{
-	
-	height: 1800px;
-	width: 60%
+	width: 65%
 }
-
-table{
-	margin-bottom: 3em;
-	font-size: medium;
-}
-.far.fa-dot-circle{
-	font-size: small;
-}
-.fas.fa-circle{
-	font-size: x-small;
-	padding-right: 1em;
-}
-.col1{
-	padding-right: 20em;
-	font-weight: bold;
-	}
-.titrecol{
-	font-weight: bold;}
 
 .conteneur {
  	display:flex;
  	flex-direction: column;
- 	margin: auto;
- }
+ 	height:100%;
+ 	min-height: 100vh;
+ 	width: 65%;
+ 	padding-left: 7em;
+}
  .civilite{
   	display:flex;
  	flex-direction: column;
  	align-items: flex-start;
  	width:68%;
- }
-
-.reco{
-	display: flex;
 }
+.far.fa-dot-circle{
+	font-size: 1rem;
+	padding-right: 1em;
+	color: #4DB6AC
+	}
+.far.fa-circle{
+	font-size: 0.8rem;
+	padding-right: 1em;
+	color: #4DB6AC;
+}
+ul{list-style: none;}
+.element1{display: flex;}
+.bloc1{
+	display: flex;
+	flex-direction: column;
+ 	width: 20%;
+}
+.bloc2{width:50%;}
+.far.fa-dot-circle{font-size: 1rem;
+	color: #4DB6AC;}
+.date{
+	margin-top: 0;
+	font-weight: bold;
+}
+.ville{
+	margin-top: 0;
+	margin-left: 2em;
+	font-weight: bold;
+}
+.etabl{
+	font-weight: bold;
+	margin-top: 0;
+}
+.intitule{margin-top: 0}
+.reco{display: flex;}
 #ace{padding-right: 15em;}
