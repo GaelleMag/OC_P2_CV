@@ -1,48 +1,28 @@
-/* fonts */
+/*fonts*/
 @font-face {
 	font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-
  body {
-	font-family: 'Roboto', sans-serif
+	font-family: 'Roboto', sans-serif;
+}
+.flex-box-container{
 	width:80%;
 	margin:0 auto;
 }
 
-/* aside*/
+/*aside*/
 aside {
 	display:flex;
 	flex-direction: column;
 	font-family: 'Noto Sans JP', sans-serif;
  	background-color : #4DB6AC;
  	width:27%;
- 	/*height: 1800px;*/
- 	height:100%;
+  	height:100%;
  	min-height: 100vh;
  	float:left;
  	position: relative;
-  }
-div h2{
-	background-color: #F5F5F5;
-	color:#4DB6AC;
-	text-align: center;
-	height:50px;
-}
-aside i{
-	color : white;
-	font-size: 3rem;
-	text-align: center;
-	padding: 1rem;
-	border:3px #FFF solid;
-	border-radius: 50%;
-}
-
-.iconeloisirs{text-align: center;}
-.fas.fa-gamepad{
-	margin-left: 1em;
-    margin-right: 1em;
-}
+} 
 .divphoto{
 	text-align: center;
     padding-top: 2em;
@@ -51,68 +31,83 @@ aside i{
   border-radius: 50%;
   width: 41%;
   box-shadow: 1px 1px 5px #555;
-  text-align: center;	
+  text-align: center;
  }
-.contact{
-	/*height: 376px;*/
-	padding-left: 3em;
+.nombloc{
+ 	background-color: #F5F5F5;
+	color:#4DB6AC;
+	text-align: center;
+	height:50px;
+	padding-left: 2em;
+ }
+ .contact{
+ 	padding-left: 3em;
+	padding-right: 3em;
 	text-align: justify;
 	height: 20%;
 }
+.contact a{
+	text-decoration: none;
+	color:black;
+}
 .apropos{
-/*height: 820px;*/
-padding-left: 3em;
-padding-right: 3em;
-text-align:justify;
-height: 40em;
+	text-align:justify;
+	height: 0%;
+	min-height: 100vh;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 .loisirs{
-/*height: 150px;*/
-position: absolute;
-bottom: 1em;
-width: 100%;
+	position: absolute;
+	bottom: 1em;
+	width: 100%;
 }
-
+aside i{
+	color : white;
+	font-size: 2rem;
+	text-align: center;
+	border:3px #FFF solid;
+	border-radius: 50%;
+	padding: 1rem;
+}
+.iconeloisirs{text-align: center;}
+.fas.fa-gamepad{
+	margin-left: 1em;
+    margin-right: 1em;
+}
 /*main*/
-#gaelle {
-	color:#4DB6AC;
-	font-weight: bold;
-}
-.fas.fa-graduation-cap,.fas.fa-suitcase, .fas.fa-pencil-alt{
-	color: #4DB6AC;
-	float: left;
-	margin-right: 1em;
-	vertical-align: bottom;
-	font-size: 2em;
-}
-.underline{border-bottom: 2px #4DB6AC solid;}
-section h1{
-font-size: 4em;
-line-height: 3rem;
-}
-
-#profession{font-size: medium;}
-
-section h2{
-	border-bottom: 2px #4DB6AC solid;
-	margin-bottom: 2em;
-	width: 65%
-}
-
 .conteneur {
  	display:flex;
  	flex-direction: column;
  	height:100%;
  	min-height: 100vh;
- 	width: 65%;
- 	padding-left: 7em;
-}
- .civilite{
+ 	width: 60%;
+ 	padding-left: 5em;
+ }
+.identite2{display: none;}
+.civilite{
   	display:flex;
  	flex-direction: column;
  	align-items: flex-start;
- 	width:68%;
+ 	width:95%;
+ 	font-size: 2em;
 }
+#gaelle {
+	color:#4DB6AC;
+	font-weight: bold;}
+#profession{font-size: medium;}
+.underline{border-bottom: 2px #4DB6AC solid;}
+.fas.fa-graduation-cap,.fas.fa-suitcase, .fas.fa-pencil-alt{
+	color: #4DB6AC;
+	float: left;
+	margin-right: 1em;
+	vertical-align: bottom;
+}
+section h2{
+	border-bottom: 2px #4DB6AC solid;
+	margin-bottom: 2em;
+	width: 87%}
+ul{list-style: none;}
 .far.fa-dot-circle{
 	font-size: 1rem;
 	padding-right: 1em;
@@ -123,16 +118,12 @@ section h2{
 	padding-right: 1em;
 	color: #4DB6AC;
 }
-ul{list-style: none;}
 .element1{display: flex;}
 .bloc1{
 	display: flex;
 	flex-direction: column;
- 	width: 20%;
+ 	width: 31%;
 }
-.bloc2{width:50%;}
-.far.fa-dot-circle{font-size: 1rem;
-	color: #4DB6AC;}
 .date{
 	margin-top: 0;
 	font-weight: bold;
@@ -142,10 +133,91 @@ ul{list-style: none;}
 	margin-left: 2em;
 	font-weight: bold;
 }
+.bloc2{
+	width:40%;
+	margin-left: 0.5rem;
+}
 .etabl{
 	font-weight: bold;
 	margin-top: 0;
 }
 .intitule{margin-top: 0}
-.reco{display: flex;}
-#ace{padding-right: 15em;}
+.reco{display: flex;
+width:80%;
+}
+#ace{padding-right: 8em;}
+
+/* responsive smartphone*/
+@media(max-width:1023px)
+	{
+	.flex-box-container{
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+	}
+	.conteneur{
+		width: 88%;
+	}
+	aside{
+		flex-direction:row;
+		width:auto;
+		height: auto;
+		margin-top: 1rem;
+	}
+	.contact{
+		display:block;
+		font-size: smaller;
+		width: 40%;
+		margin-left: 2em;
+		padding-left:2rem;	
+	}
+	.apropos{
+		width: 55%;
+		padding-left:9rem;
+	}
+	.reco{
+		display: flex;
+	  	flex-direction: column;
+	  	font-size: smaller;
+	  	margin-left: 15%;
+	  	margin-bottom: 1em;
+	}		
+	#ace{
+	 	padding-right: none;
+	 	width:7em;
+	 	font-size: medium;
+	}
+	#austin{margin-right: 10em;
+			font-size: medium;
+	}
+	.divphoto{display: none;
+	}
+	.identite2{
+		display:block;
+    	border-radius: 50%;
+	  	width: 15%;
+	  	box-shadow: 1px 1px 5px #555;
+	  	text-align: center;
+	  	float: left;
+	  	margin-right: 4rem;
+	}
+}
+@media(min-width:1500px)
+{
+	body{
+		border-left: 3px #003E73 solid;
+		border-right: 3px #003E73 solid;
+		margin-left: 3em;
+	}
+	aside{
+		height: 80%;
+	}
+
+	.contact{
+		display:block;
+	}
+	.apropos{
+	/*	height:15em;
+		min-height: 10vh;*/
+	}
+}
