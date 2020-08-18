@@ -1,124 +1,290 @@
-/* fonts */
+/*fonts*/
 @font-face {
 	font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-
  body {
-	font-family: 'Roboto', sans-serif
+	font-family: 'Roboto', sans-serif;
+}
+.flex-box-container{
+	width:80%;
+	margin:0 auto;
 }
 
-/* aside*/
+/*aside*/
 aside {
 	display:flex;
 	flex-direction: column;
 	font-family: 'Noto Sans JP', sans-serif;
  	background-color : #4DB6AC;
- 	width:30%;
- 	height: 1800px;
+ 	width:27%;
+  	height:100%;
+ 	min-height: 100vh;
  	float:left;
-
- 	
- }
-aside h2{
-	background-color: #F5F5F5;
-	color:#4DB6AC;
-	text-align: center;
-	height:50px;
-	font-size: 2em;
-
-}
-
-aside i{
-	color : white;
-	font-size: 4em;
-	text-align: center;
-}
-.iconeloisirs{
-	text-align: center;
-}
-
-.fas.fa-gamepad{
-	margin-left: 1em;
-    margin-right: 1em;}
-
+ 	position: relative;
+} 
 .divphoto{
 	text-align: center;
     padding-top: 2em;
+    padding-bottom: 2em;
 }
-
 .identite {
   border-radius: 50%;
   width: 41%;
   box-shadow: 1px 1px 5px #555;
-  text-align: center;	
-  }
-.contact{
-	height: 376px;
-	padding-left: 3em;
+  text-align: center;
+ }
+.nombloc{
+ 	background-color: #F5F5F5;
+	color:#4DB6AC;
+	text-align: center;
+	height:50px;
+	margin: auto;
+ }
+ .contact{
+ 	padding-left: 3em;
+	padding-right: 3em;
 	text-align: justify;
+	height: 20%;
 }
-
+.contact a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color:#CACACE;
+}
 .apropos{
-height: 848px;
-padding-left: 3em;
-padding-right: 3em;
-text-align:justify;
+	text-align:justify;
+	height: 40%;
+	min-height: 70vh;
+	padding-left: 2em;
+	padding-right: 2em;
 }
-
 .loisirs{
-height: 150px;
+	/*position: absolute;*/
+	bottom: 1em;
+	width: 100%;
 }
-
-
+aside i{
+	color : white;
+	font-size: 1.7rem;
+	text-align: center;
+	border:3px #FFF solid;
+	border-radius: 50%;
+	padding: 1rem;
+}
+.iconeloisirs{text-align: center;}
+.fas.fa-gamepad{
+	margin-left: 1em;
+    margin-right: 1em;
+}
 /*main*/
+.conteneur {
+ 	display:flex;
+ 	flex-direction: column;
+ 	height:100%;
+ 	min-height: 100vh;
+ 	width: 60%;
+ 	padding-left: 5em;
+ }
+.identite2{display: none;}
+.civilite{
+  	display:flex;
+ 	flex-direction: column;
+ 	align-items: flex-start;
+ 	width:95%;
+ 	font-size: 2em;
+}
 #gaelle {
 	color:#4DB6AC;
 	font-weight: bold;}
-
-section i{
+#profession{font-size: medium;}
+.underline{border-bottom: 2px #4DB6AC solid;}
+.fas.fa-graduation-cap,.fas.fa-suitcase, .fas.fa-pencil-alt{
 	color: #4DB6AC;
 	float: left;
 	margin-right: 1em;
 	vertical-align: bottom;
-	font-size: 2em;
-	
 }
-
-.underline{border-bottom: 2px #4DB6AC solid;}
-
-section h1{
-font-size: 7em;
-line-height: 3rem;
-}
-#profession{
-	font-size: 2rem;
-	}
 section h2{
 	border-bottom: 2px #4DB6AC solid;
 	margin-bottom: 2em;
+	width: 87%}
+ul{list-style: none;}
+.far.fa-dot-circle{
+	font-size: 1rem;
+	padding-right: 1em;
+	color: #4DB6AC
+	}
+.far.fa-circle{
+	font-size: 0.8rem;
+	padding-right: 1em;
+	color: #4DB6AC;
 }
-
-
-main{
-	padding-left: 5%;
-	height: 1800px;
+.element1{display: flex;}
+.bloc1{
+	display: flex;
+	flex-direction: column;
+ 	width: 31%;
 }
-
-
-.conteneur {
- 	display:flex;
- 	flex-direction: column;
- 	margin: auto;
- }
- .civilite{
-  	display:flex;
- 	flex-direction: column;
- 	align-items: flex-start;
- 	width:68%;
- }
-
+.date{
+	margin-top: 0;
+	font-weight: bold;
+}
+.ville{
+	margin-top: 0;
+	margin-left: 2em;
+	font-weight: bold;
+}
+.bloc2{
+	width:40%;
+	margin-left: 0.5rem;
+}
+.etabl{
+	font-weight: bold;
+	margin-top: 0;
+}
+.intitule{margin-top: 0}
 .reco{
 	display: flex;
+	width:80%;
 }
-#ace{padding-right: 10em;}
+#ace{padding-right: 8em;}
+
+/* responsive smartphone*/
+@media(max-width:1023px)
+	{
+	.flex-box-container{
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+		font-size:2rem;
+	}
+	.conteneur{
+		width: 75%;
+		height:100%;
+ 		min-height: 80vh;
+ 		margin-bottom: 1rem;
+	}
+	aside{
+		flex-direction:row;
+		width:auto;
+		height:100%;
+ 	    min-height: 100vh;
+ 	    margin-top:1rem;
+	}
+	aside i{
+		font-size:4rem;
+	}
+	.sizebloc{
+		height:70rem;
+ 		max-height: 70vh;
+ 	}
+ 	#profession{
+ 		font-size:2rem;
+ 	}
+	
+	section h2{
+		font-size:2.1rem;
+	}
+	.contact{
+		display:block;
+		font-size: smaller;
+		width: 40%;
+		margin-left: 2em;
+		padding-left:2rem;
+		height:30%;
+ 		min-height: 20vh;
+	}
+	.apropos{
+		width: 70%;
+		height:60%;
+ 		min-height: 60vh;
+	}
+	.reco{
+		display: flex;
+	  	flex-direction: column;
+	  	font-size: 2rem;
+	  	margin-left: 15%;
+	}		
+	#ace{
+	 	width:7em;
+	 	/*font-size: medium;*/
+	}
+	#austin{margin-right: 10em;
+			/*font-size: medium;*/
+	}
+	.divphoto{display: none;
+	}
+	.identite2{
+		display:block;
+    	border-radius: 50%;
+	  	width: 15%;
+	  	box-shadow: 1px 1px 5px #555;
+	  	text-align: center;
+	  	float: left;
+	  	margin-right: 4rem;
+	}
+	.nombloc{
+		height:4rem;
+	}
+	.loisirs{
+	position: absolute;
+	bottom: 1em;
+	width: 100%;
+	}
+}
+@media(min-width:1500px)
+{
+	.flex-box-container{
+		width: 80%;
+		font-size:2rem;
+		height:100%;
+ 		min-height: 80vh;
+	}
+	body{
+		border-left: 3px #003E73 solid;
+		border-right: 3px #003E73 solid;
+		margin-left: 3em;
+	}
+	aside{
+		height: 30%;
+		min-width: 10vh;
+	}
+	#profession{
+		font-size:2.7rem;
+	}
+	.far.fa-dot-circle{
+		font-size: 2rem;
+		padding-right: 1em;
+		
+	}
+	.far.fa-circle{
+	font-size: 1.5rem;
+	
+	}
+	
+	.nombloc{
+		height:5rem;
+	}
+
+	.contact{
+		/*display:block;*/
+		height:25em;
+		min-height: 30vh;
+	}
+	.apropos{
+	height:40em;
+	min-height: 50vh;
+	}
+	.loisirs{
+	bottom: 1em;
+	width: 100%;
+	height:10em;
+	min-height: 10vh;
+	}
+	aside i{
+		font-size: 5rem;
+	}
+}

@@ -1,113 +1,250 @@
 <!DOCTYPE html>
-
 <html lang="fr">
-<head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="StyleSheet.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@100;300;400&display=swap" rel="StyleSheet">
-    <script src="https://kit.fontawesome.com/ca10b81a1f.js" crossorigin="anonymous"></script>
-    <title>Gaelle Magnet</title>
-</head>
-<body>
-         <aside>
-        <div class="divphoto"><img class="identite" src="photo3.jpg" alt="photo identité"/></div>
-        <h2>CONTACT</h2>
-            <div class="contact">
-                <p> Adresse <br/>
-                    Thil, France
-                </p>
-                <p>
-                   Téléphone <br/>
-                   06 50 00 00 00 
-                </p>
-                <p>
-                    Email<br/>
-                    mon.mail@gmail.com
-                </p>
-                <p>
-                    Site web<br/>
-                    wwww. moi.com
-                </p>
-                <p>
-                    Skype<br/>
-                    @moi_gaelle
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width-device-width"/>
+        <link rel="stylesheet" href="StyleSheet.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@100;300;400&display=swap" rel="StyleSheet">
+        <script src="https://kit.fontawesome.com/ca10b81a1f.js" crossorigin="anonymous"></script>
+        <title>Gaelle Magnet</title>
+    </head>
+    <body class="flex-box-container">
+        <aside>
+            <div class="divphoto">
+                <img class="identite" src="photo3.jpg" alt="photo identité"/>
+            </div>
+            <div class="sizebloc">
+                <h2 class="nombloc">CONTACT</h2>
+                <div class="contact">
+                    <p>
+                        Adresse
+                        <br/>
+                        Thil, France
+                    </p>
+                    <p>
+                        Téléphone
+                        <br/>
+                        <a href="tel:+33650000000">
+                            <!-- lien fictif-->
+                            06 50 00 00 00
+                        </a>
+                    </p>
+                    <p>
+                        Email
+                        <br/>
+                        <a href="mailto:mon.mail@gmail.com">
+                            <!-- lien fictif-->
+                            mon.mail@gmail.com
+                        </a>
+                    </p>
+                    <p>
+                        Site web
+                        <br/>
+                        <a href="www.moi.com">
+                            www.moi.com
+                            <!-- lien fictif-->
+                        </a>
+                    </p>
+                    <p>
+                        Skype
+                        <br/>
+                        <a href="callto:@moi_gaelle">
+                            <!-- lien fictif-->
+                            @moi_gaelle
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div "sizebloc" >
+                <h2 class="nombloc"> A PROPOS DE MOI</h2>
+                <p class="apropos">
+                    David a dit que le lorem était proscrit, aussi voici un petit paragraphe directement sorti de ma tête pour meubler un peu. Toute fraiche dans le dév' (à ne pas confondre avec Dave...), je vous présente ici mon premier travail "officiel" en HTML5 / CSS3. Le but de l'exercie, au delà du CV, était de reproduire à l'iso un modèle. Voilà qui est fait.
                 </p>
             </div>
-        <h2> A PROPOS DE MOI</h2>
-            <p  class="apropos"> David a dit que le lorem était proscrit, aussi voici un petit paragraphe directement sorti de ma tête pour meubler un peu. Toute fraiche dans le dév' (à ne pas confondre avec Dave...), je vous présente ici mon premier travail "officiel" en HTML5 / CSS3. Le but de l'exercie, au delà du CV, était de reproduire à l'iso un modèle. Voilà qui est fait.
-        <h2> LOISIRS</h2>
-        <div class="loisirs">
-            <p class="iconeloisirs">
-                <i class="fas fa-guitar"></i>
-                <i class="fas fa-gamepad"></i>
-                <i class="fas fa-cat"></i>
-            </p>
-        </div>
-    </aside>
-    <main class="conteneur">
-        <section class="civilite">
-            <h1> <span id="gaelle">GAELLE</span> MAGNET<br/>
-            <strong><span id="profession"><span class="underline">Dével</span>oppeuse web freelance</span></strong></h1>
-        </section>
-        <section class="element">
-            <i class="fas fa-graduation-cap"></i><h2>FORMATION</h2>
-            <ul>
-                <li> OpenClassroom : développeur Web</li>
-                <li> M2 ADR </li>
-                <li> L3 et M1 Droit Social </li>
-            </ul>
-        </section>
-        <section class="element">
-            <i class="fas fa-suitcase"></i><h2>EXPÉRIENCE PROFESSIONNELLE</h2>
-            <ul>
-                <li> 
-                    <strong>2018 - 2020 : Administration des Ventes, Santé Détox, Lyon</strong><br/>
-                        <ul>
-                            <li>Conseil Client (téléphone, mail, chat)</li>
-                            <li>Gestion des Stocks, commandes fournisseurs</li>
-                            <li>Gestion du site internet</li>
-                        </ul>
-                </li>
-                <li> 
-                    <strong>2015 - 2018 : Dispatcheuse, CGI, Vaise</strong><br/>
-                        <ul>
-                            <li>Reporting</li>
-                            <li>Qualité</li>
-                            <li>Animation réunion</li>
-                            <li>Gestion activité : gestions tickets entrants (qualification, affectaction, gestion des délais...)</li>
-                            <li>Gestion formation</li>  
-                        </ul> 
-                </li>
-                <li> 
-                    <strong>2012 - 2015 : Chargée de Clientèle, PlasticOmnium, Lyon</strong><br/>
-                        <ul>
-                            <li>Gestion des demandesc clients</li>
-                            <li>Gestion des demandes usagers</li>
-                            <li>Facturation</li>
-                            <li>Animation réunion</li>
-                        </ul>               
-                </li>
-            </ul>
-        </section>
-        <section >
-            <i class="fas fa-pencil-alt"></i><h2>RECOMMANDATIONS</h2>
-            <div class="reco">
-            <p id="ace">
-                ACE VENTURA <br/>
-                Directeur, Agence<br/>
-                Téléphone : <br/>
-                Email : ace.ventura@gmail.world
-            </p>
-            <p>
-                AUSTIN POWER<br/>
-                Directeur, Agence<br/>
-                Téléphone :<br/>
-                Email : au.power@gmail.uk
-            </p>
+            <div class="loisirs">
+                <h2 class="nombloc"> LOISIRS</h2>
+                <p class="iconeloisirs">
+                    <i class="fas fa-guitar"></i>
+                    <i class="fas fa-gamepad"></i>
+                    <i class="fas fa-cat"></i>
+                </p>
             </div>
-        </section>
-    </main>
-
-
-</body>
+        </aside>
+        <main class="conteneur">
+            <section class="civilite">
+                <h1>
+                    <img class="identite2" src="photo3.jpg" alt="photo identité"/>
+                    <span id="gaelle">GAELLE</span>
+                     MAGNET
+                    <br/>
+                    <strong>
+                        <span id="profession"><span class="underline">Dével</span>oppeuse web freelance</span>
+                    </strong>
+                </h1>
+            </section>
+            <section>
+                <h2>FORMATION<i class="fas fa-graduation-cap"></i></h2>
+                <ul>
+                    <li class="element1">
+                        <div class="bloc1">
+                            <p class="date">
+                                <i class="far fa-dot-circle"></i>
+                                2019-2020
+                            </p>
+                            <p class="ville">
+                                Lyon
+                            </p>
+                        </div>
+                        <div class="bloc2">
+                            <p class="etabl">
+                                OPENCLASSROOMS
+                            </p>
+                            <p class="intitule">
+                                Développeur web
+                            </p>
+                            <p class="intitule">
+                                Apprentissage des langages HTML5 et CSS3, intégration, Bootstrap
+                            </p>
+                        </div>
+                    </li>
+                    <li class="element1">
+                        <div class="bloc1">
+                            <p class="date">
+                                <i class="far fa-circle"></i>
+                                2009-2010
+                            </p>
+                            <p class="ville">
+                                Lyon
+                            </p>
+                        </div>
+                        <div class="bloc2">
+                            <p class="etabl">
+                                UNIVERSITE LUMIERE LYON
+                            </p>
+                            <p class="intitule">
+                                M2 ADR
+                            </p>
+                            <p class="intitule">
+                                Gestion de projet axé sur le développement rural et local 
+                                <br/>
+                                 Gestion des programmes de coopérations locaux et européens
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2><i class="fas fa-suitcase"></i>EXPÉRIENCE PROFESSIONNELLE</h2>
+                <ul>
+                    <li class="element1">
+                        <div class="bloc1">
+                            <p class="date">
+                                <i class="far fa-dot-circle"></i>
+                                2018-2020
+                            </p>
+                            <p class="ville">
+                                Lyon
+                            </p>
+                        </div>
+                        <div class="bloc2">
+                            <p class="etabl">
+                                SANTE DETOX
+                            </p>
+                            <p class="intitule">
+                                Administration des ventes
+                            </p>
+                            <p class="intitule">
+                                Conseil Client (téléphone, mail, chat)
+                                <br/>
+                                Gestion des Stocks, commandes fournisseurs
+                                <br/>
+                                Gestion du site internet
+                            </p>
+                        </div>
+                    </li>
+                    <li class="element1">
+                        <div class="bloc1">
+                            <p class="date">
+                                <i class="far fa-circle"></i>
+                                2015-2018
+                            </p>
+                            <p class="ville">
+                                Lyon
+                            </p>
+                        </div>
+                        <div class="bloc2">
+                            <p class="etabl">
+                                CGI
+                            </p>
+                            <p class="intitule">
+                                Dispatcheuse
+                            </p>
+                            <p class="intitule">
+                                Reporting
+                                <br/>
+                                Qualité
+                                <br/>
+                                Animation réunion
+                                <br/>
+                                Gestion activité : gestions tickets entrants
+                                <br/>
+                                Gestion formation
+                            </p>
+                        </div>
+                    </li>
+                    <li class="element1">
+                        <div class="bloc1">
+                            <p class="date">
+                                <i class="far fa-circle"></i>
+                                2012-2015
+                            </p>
+                            <p class="ville">
+                                Lyon
+                            </p>
+                        </div>
+                        <div class="bloc2">
+                            <p class="etabl">
+                                PLASTIC OMNIUM
+                            </p>
+                            <p class="intitule">
+                                Chargée de clientèle
+                            </p>
+                            <p class="intitule">
+                                Gestion des demandes clients
+                                <br/>
+                                Gestion des demandes usagers
+                                <br/>
+                                Facturation
+                                <br/>
+                                Animation réunion
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section >
+                <h2><i class="fas fa-pencil-alt"></i>RECOMMANDATIONS</h2>
+                <div class="reco">
+                    <p id="ace">
+                        ACE VENTURA 
+                        <br/>
+                        Directeur, Agence
+                        <br/>
+                        Téléphone : 
+                        <br/>
+                        Email : ace.ventura@gmail.world
+                    </p>
+                    <p id="austin">
+                        AUSTIN POWER
+                        <br/>
+                        Directeur, Agence
+                        <br/>
+                        Téléphone :
+                        <br/>
+                        Email : au.power@gmail.uk
+                    </p>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
