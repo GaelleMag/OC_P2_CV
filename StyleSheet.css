@@ -57,7 +57,7 @@ a:hover{
 .apropos{
 	text-align:justify;
 	height: 40%;
-	min-height: 70vh;
+	min-height: 80vh;
 	padding-left: 2em;
 	padding-right: 2em;
 }
@@ -123,6 +123,7 @@ ul{list-style: none;}
 	color: #4DB6AC;
 }
 .element1{display: flex;}
+
 .bloc1{
 	display: flex;
 	flex-direction: column;
@@ -138,8 +139,8 @@ ul{list-style: none;}
 	font-weight: bold;
 }
 .bloc2{
-	width:40%;
-	margin-left: 0.5rem;
+	width:60%;
+	margin-left: 0.1rem;
 }
 .etabl{
 	font-weight: bold;
@@ -162,10 +163,23 @@ ul{list-style: none;}
 		font-size:2rem;
 	}
 	.conteneur{
-		width: 75%;
+		width: 80%;
 		height:100%;
  		min-height: 80vh;
+ 		padding-left:2em;
  		margin-bottom: 1rem;
+	}
+	.civilite{
+		margin-left: 3em;
+	}
+	section{
+		margin-left: 0em;
+		width:100%;
+	}
+	.bloc1{margin-left:1em;}
+
+	.bloc2{
+		width:70%;
 	}
 	aside{
 		flex-direction:row;
