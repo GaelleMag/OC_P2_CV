@@ -258,8 +258,6 @@ ul{list-style: none;}
  		min-height: 80vh;
 	}
 	body{
-		border-left: 3px #003E73 solid;
-		border-right: 3px #003E73 solid;
 		margin-left: 3em;
 	}
 	aside{
@@ -284,7 +282,6 @@ ul{list-style: none;}
 	}
 
 	.contact{
-		/*display:block;*/
 		height:25em;
 		min-height: 30vh;
 	}
