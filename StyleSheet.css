@@ -258,9 +258,6 @@ ul{list-style: none;}
  		min-height: 80vh;
  		margin-left:0em;
 	}
-	body{
-		/*margin-left: 3em;*/
-	}
 	aside{
 		height: 30%;
 		min-width: 10vh;
@@ -300,6 +297,6 @@ ul{list-style: none;}
 		font-size: 5rem;
 	}
 	.conteneur{
-		margin-left: 30em;
+		margin-left: 20em;
 	}
 }
